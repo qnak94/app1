@@ -1,0 +1,59 @@
+html, body{
+    height: 100%;
+}
+input, textarea{
+    display: block;
+    margin:1%;
+}
+.menu{
+    width: 100%;
+    min-height: 150px;
+    height: 15%;
+}
+.p-menu{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    margin:0;
+}
+.home{
+    background: url(../img/home.png) no-repeat center;
+}
+.map{
+    background: url(../img/map.png) no-repeat center;
+}
+.about{
+    background: url(../img/about.png) no-repeat center;
+}
+.contact{
+    background: url(../img/contact.png) no-repeat center;
+}
+#map{
+    height: 75%;
+    width: 100%;
+}
+.marks{
+    min-height: 75px;
+    height: 10%;
+    width: 100%;
+}
+.mark{
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+}
+.schools{
+    background: url(../img/school.png) no-repeat center;
+}
+.hospitals{
+    background: url(../img/hospital.png) no-repeat center;
+}
+.gas{
+    background: url(../img/gas.png) no-repeat center;
+}
+.markets{
+    background: url(../img/market.png) no-repeat center;
+}
+.hotels{
+    background: url(../img/hotel.png) no-repeat center;
+}

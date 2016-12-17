@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map</title>
+    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="common/css/style.css">
+</head>
+<body>
+<div class="menu">
+    <a href="pages/home.html" class="home p-menu"></a><a href="index.html" class="map p-menu"></a><a href="pages/about.html" class="about p-menu"></a><a href="pages/contact.html" class="contact p-menu"></a>
+</div>
+<div id="map"></div>
+<div class="marks">
+    <div class="schools mark" onclick="schoolsOn()"></div><div class="hospitals mark" onclick="hospitalsOn()"></div><div class="gas mark" onclick="gassOn()"></div><div class="markets mark" onclick="marketsOn()"></div><div class="hotels mark" onclick="hotelsOn()"></div>
+</div>
+
+<!-- <button onclick="renoveMarkers()">clear</button> -->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgnpJclUlt_cUsUoL7EWEP38uBdzycYC0&callback=initMap">
+</script>
+<script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>
